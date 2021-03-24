@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    // Switch,
+    // Route,
+    Link
+  } from "react-router-dom";
 
 function Login(){
     return(
@@ -35,8 +41,8 @@ function Login(){
             </div>
 
             <div className="mt">
-                <a href="/">sign up</a>
-                <a href="/" className="float-right">Forgot password?</a>
+                <Link href="/">sign up</Link>
+                <Link to="/sign-up" className="float-right">Forgot password?</Link>
             </div>
 
             <div className="centered mt">
