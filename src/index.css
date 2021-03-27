@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(191, 238, 212);
 }
 
 code {
@@ -17,6 +18,10 @@ a{
   color: rgb(88, 88, 243);
 }
 
+label{
+  font-size: 8pt;
+}
+
 /*
  *style for schedular in react
  *style for schedular in react
@@ -26,7 +31,14 @@ a{
 .login-container{
   width: 300px;
   margin: auto;
-  margin-top: 160px;
+  margin-top: 100px;
+}
+
+/*sign in style*/
+.signin-container{
+  width: 700px;
+  margin: auto;
+  margin-top: 100px;
 }
 
 /*form style*/
@@ -35,7 +47,8 @@ a{
 }
 
 .input-label{
-  font-size: 19pt;
+  font-size: 15pt;
+  font-weight: 200;
 }
 
 .form-control{
@@ -75,7 +88,7 @@ a{
 }
 
 .mb{
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .mb-1{
@@ -86,6 +99,18 @@ a{
   margin-bottom: 30px;
 }
 
+.mr{
+  margin-right: 10px;
+}
+
+.mr-1{
+  margin-right: 20px;
+}
+
+.mr-2{
+  margin-right: 30px;
+}
+
 /* float */
 .float-right{
   float: right;
@@ -93,4 +118,18 @@ a{
 
 .float-left{
   float: left;
+}
+
+/* positioning */
+.col{
+  display: flex;
+  /* flex-flow: column wrap; */
+  align-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pf{
+  font-size: 8pt;
+  color: rgb(101, 97, 97);
 }

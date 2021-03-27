@@ -10,8 +10,8 @@ function Login(){
     return(
         <div className="login-container">
             <div className="centered">
-                <h3>Let's sign you in.</h3>
-                <p>
+                <h5>Let's sign you in.</h5>
+                <p className="pf">
                     Welcome back. <br />
                     You've been missed!
                 </p>
@@ -41,8 +41,8 @@ function Login(){
             </div>
 
             <div className="mt">
-                <Link href="/">sign up</Link>
-                <Link to="/sign-up" className="float-right">Forgot password?</Link>
+                <Link to="/sign-up">Sign up</Link>
+                <Link to="/forgot-password" className="float-right">Forgot password?</Link>
             </div>
 
             <div className="centered mt">

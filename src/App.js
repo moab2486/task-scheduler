@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Login from './views/login'
 import SignUp from './views/signUp'
+import ForgotPassword from './views/forgotPassword'
 import Admin from './views/admin'
 import Users from './views/users'
 
@@ -38,6 +39,9 @@ function App(){
         <Switch>
           <Route path="/sign-up">
             <SignUp />
+          </Route>
+          <Route path="/forgot-password">
+            <ForgotPassword />
           </Route>
           <Route path="/users">
             <Users />
